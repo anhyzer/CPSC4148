@@ -1,0 +1,123 @@
+\section{Mathematical Review}
+
+\subsection{Sets}
+
+\hspace{2em} Sets are \textbf{unordered collections} of \textbf{elements}, or \textbf{members}, commonly denoted using curly brackets. 
+A set of two elements is called an \textbf{unordered pair}.
+\begin{center}
+    \begin{minipage}{0.5\textwidth}
+    \begin{align*}
+        &\textbf{Let:}\\
+        U &= \{-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}\\
+        A &= \{1, 2, 4, 5, 6\}\\
+        B &= \{1, 3, 5, 7, 9\}\\
+        A &\subset U\\
+        B &\subset U
+    \end{align*}
+    \end{minipage}
+\end{center}
+
+Sets do \textbf{not} count for the multiplicity of elements; each appears only once in the result of set operations. Below are 
+some characteristics of an example set \textit{A}, the set of \textbf{integers} $\mathbb{Z}$, the set of \textbf{natural numbers}
+$\mathbb{N}$, the \textbf{empty} set $\emptyset$, and basic set \textbf{operations} on sets \textit{A} and \textit{B}.
+
+\begin{center}
+    \begin{minipage}{0.75\textwidth} % Adjust the width as needed
+    \begin{align*}
+        2 \in A &\iff 2 \in \{1, 2, 4, 5, 6\}\\
+        7 \notin A &\iff 7 \notin\{1, 2, 4, 5, 6\}\\
+        \mathbb{N} &= \{1, 2, 3, \ldots\}\\
+        \mathbb{Z} &= \{\ldots,-1, 0, 1, \ldots\}\\
+        \emptyset &= \{\}\\
+        A \cup B &= \{1, 2, 3, 4, 5, 6, 7, 9\}\\
+        A \cap B &= \{1, 5\}\\
+        \overline{A} = \{-1, 0, 3, 6, 7, 8, 9\} &\iff \overline{A} = U - A\\
+        \overline{B} = \{-1, 0, 2, 4, 6, 8\} &\iff \overline{B} = U - B\\
+        A \times B &= \{(1, 1), (1, 3), (1, 5), \ldots, (6, 5), (6, 7), (6, 9)\}
+    \end{align*}
+    \end{minipage}
+\end{center}
+
+Note: $A \times B$ is the \textbf{cross}, or \textbf{Cartesian}, \textbf{product} of two sets. Each element of each set 
+in the set of sets is multiplied together. The set $\mathbb{N}^2 = \mathbb{N} \times \mathbb{N}$ consists of all ordered pairs of natural numbers. It can 
+also be written as $\{(i, j)|i, j \geq 1\}$
+
+\subsection{Sequences and Tuples}
+
+\hspace{2em} Sequences are \textbf{ordered collections} of \textbf{elements}, or \textbf{members}, commonly denoted using parentheses.
+Finite sequences are often called \textbf{tuples}; the \textbf{2-tuple} is referred to as an \textbf{ordered pair}.
+
+\begin{center}
+    \begin{minipage}{0.5\textwidth}
+    \begin{align*}
+        &\textbf{Let:}\\
+        A &= (1, 2, 3)\\
+        A &\neq (2, 3, 1)
+    \end{align*}
+    \end{minipage}
+\end{center}
+
+\subsection{Funtions and Relations}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | c |}
+        \hline
+        n & f(n)\\
+        \hline
+        0 & 1\\
+        1 & 2\\
+        2 & 3\\
+        3 & 4\\
+        4 & 0\\
+        \hline
+    \end{tabular}
+    \caption{$f(n) = n + 1 \mod 5$}
+    \label{table:1}
+\end{table}
+
+Note: $n + 1 \mod 5$ is of the form $dividend \mod divisor$. Subtract the divisor from the dividend over and again until the remainder
+is less than the divisor. That remainder is your answer.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | c c c c|}
+        \hline
+        n & 0 & 1 & 2 & 3\\
+        \hline
+        0 & 0 & 1 & 2 & 3\\
+        1 & 1 & 2 & 3 & 0\\
+        2 & 2 & 3 & 0 & 1\\
+        3 & 3 & 0 & 1 & 2\\
+        \hline
+    \end{tabular}
+    \caption{$g(i, j) = i + j \mod 4$}
+    \label{table:1}
+\end{table}
+
+\subsection{Graphs}
+
+\subsection{Strings and Languages}
+
+\subsection{Boolean Logic}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c c | c c c |}
+        \hline
+        a & b & $(\neg a \lor b)$ & $(b \Rightarrow a)$ & $((a \Rightarrow a) \land (b \Rightarrow a))$ \\
+        \hline
+        0 & 0 & 1 & 1 & 1\\
+        0 & 1 & 1 & 0 & 0\\
+        1 & 0 & 0 & 1 & 1\\
+        1 & 1 & 1 & 1 & 1\\
+        \hline
+    \end{tabular}
+    \caption{}
+    \label{table:2}
+\end{table}
+
+\subsection{Proofs}
+
+\begin{proof}
+\end{proof}

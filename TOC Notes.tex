@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{float}
+
+% Set counter to 0 to match Sipser's 3rd Edition TOC book. Default is 1 so (--) operation is required
+\setcounter{section}{-1}
+
+% Indent subsections by 1em
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\hspace{1em}\thesubsection}{1em}{}
+
+% Page Geometry
+\geometry{a4paper, margin=1in}
+
+% Title
+\title{Notes for CPSC 4148: Theory of Computation}
+\author{Ryan Zimmerman}
+\date{Spring 2024}
+
+% Temporary until references are cited
+\nocite{*}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+% Sections
+
+% 0
+\include{sections/section0}
+% 1
+\include{sections/section1}
+
+\bibliographystyle{plain}
+\addcontentsline{toc}{section}{References}
+\bibliography{references}
+
+\end{document}

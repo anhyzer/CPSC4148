@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {0}Mathematical Review}{2}{section.0}%
+\contentsline {subsection}{\numberline {0.1}Sets}{2}{subsection.0.1}%
+\contentsline {subsection}{\numberline {0.2}Sequences and Tuples}{2}{subsection.0.2}%
+\contentsline {subsection}{\numberline {0.3}Funtions and Relations}{3}{subsection.0.3}%
+\contentsline {subsection}{\numberline {0.4}Graphs}{3}{subsection.0.4}%
+\contentsline {subsection}{\numberline {0.5}Strings and Languages}{3}{subsection.0.5}%
+\contentsline {subsection}{\numberline {0.6}Boolean Logic}{3}{subsection.0.6}%
+\contentsline {subsection}{\numberline {0.7}Proofs}{3}{subsection.0.7}%
+\contentsline {section}{\numberline {1}Regular Languages}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Finite Automata}{4}{subsection.1.1}%
+\contentsline {section}{References}{5}{subsection.1.1}%
